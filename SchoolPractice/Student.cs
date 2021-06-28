@@ -7,10 +7,10 @@ namespace SchoolPractice
 {
     public class Student
     {
-        private string _name;
-        private int _studentId;
-        private int _numberOfCredits;
-        private double _gpa;
+        public string Name { get; set; }
+        public int StudentId { get; set; }
+        public int NumberOfCredits { get; set; }
+        public double Gpa { get; set; }
 
                    
     }
